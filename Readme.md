@@ -16,6 +16,10 @@ Edit the main() method in **Input.java** to do the following:
 
 Make sure you modify the first line of this **Readme.md** and replace the two instances of "username" with your GitHub username.
 
+## Relevent Sections From ThinkJava
+* [The Scanner Class](http://greenteapress.com/thinkjava6/html/thinkjava6004.html#sec33)
+* [The Scanner Bug](http://greenteapress.com/thinkjava6/html/thinkjava6004.html#sec41)
+
 ## Grading
 * 30 - Correctly received input.
 * 30 - Correctly stored input as variables.
