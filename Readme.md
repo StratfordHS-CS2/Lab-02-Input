@@ -12,7 +12,7 @@ Edit the main() method in **Input.java** to do the following:
 * Ask the user for their age and store the result as an int.
 * Ask the user for the year of their most recent birthday and store the result as an int.
 * Calculate the year they were born.
-* Output the message "Name was born in xxxx"
+* Output the message "*Name* was born in *xxxx*"
 
 Make sure you modify the first line of this **Readme.md** and replace the two instances of "username" with your GitHub username.
 
