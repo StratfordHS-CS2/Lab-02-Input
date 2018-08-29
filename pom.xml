@@ -19,16 +19,29 @@
 	<build>
 		<sourceDirectory>${project.basedir}</sourceDirectory>
 		<testSourceDirectory>${project.basedir}</testSourceDirectory>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-checkstyle-plugin</artifactId>
-				<version>3.0.0</version>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-checkstyle-plugin</artifactId>
+        <version>3.0.0</version>
 
-				<configuration>
-					<configLocation>http://www.daveavis.com/cs/checkstyle_SHS.xml</configLocation>
-				</configuration>
-            </plugin>
-        </plugins>
-    </build>
+        <executions>
+          <execution>
+            <id>validate</id>
+            <phase>validate</phase>
+            <configuration>
+    				  <configLocation>http://www.daveavis.com/cs/checkstyle_SHS.xml</configLocation>
+              <encoding>UTF-8</encoding>
+              <consoleOutput>true</consoleOutput>
+              <failsOnError>false</failsOnError>
+              <failsOnViolation>false</failsOnViolation>
+    			  </configuration>
+            <goals>
+              <goal>check</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
 </project>
