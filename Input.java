@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 /**
  * Write a description of class Input here.
- * 
+ *
  * @author (your name)
  * @version (date)
  */
@@ -10,6 +10,8 @@ public class Input
 {
     /**
      * Brief description of what the main method does.
+     *
+     * @param   args    Not used
      */
     public static void main (String[] args)
     {
