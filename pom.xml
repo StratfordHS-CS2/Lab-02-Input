@@ -33,8 +33,6 @@
     				  <configLocation>http://www.daveavis.com/cs/checkstyle_SHS.xml</configLocation>
               <encoding>UTF-8</encoding>
               <consoleOutput>true</consoleOutput>
-              <failsOnError>false</failsOnError>
-              <failsOnViolation>false</failsOnViolation>
     			  </configuration>
             <goals>
               <goal>check</goal>
